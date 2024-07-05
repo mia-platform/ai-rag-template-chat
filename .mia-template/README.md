@@ -1,4 +1,4 @@
-# ai-rag-template-chat
+# mia_template_service_name_placeholder
 
 This project was bootstrapped with [Create Vite](https://vitejs.dev/guide/).
 
@@ -34,9 +34,9 @@ See the section about [deployment](https://vitejs.dev/guide/static-deploy) for m
 
 ## Build Docker Image
 
-To build your Docker image you need to build your application using `yarn build` as explained above. Then build your image using `docker build -t ai_rag_template_chat .`.
+To build your Docker image you need to build your application using `yarn build` as explained above. Then build your image using `docker build -t mia_template_service_name_placeholder .`.
 
-To run your application use `docker run -d -p 8080:8080 ai_rag_template_chat`. Open [http://localhost:8080](http://localhost:8080) to access your application.
+To run your application use `docker run -d -p 8080:8080 mia_template_service_name_placeholder`. Open [http://localhost:8080](http://localhost:8080) to access your application.
 
 ## Learn More
 
