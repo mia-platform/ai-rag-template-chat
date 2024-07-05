@@ -1,0 +1,9 @@
+.description-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.description-container button {
+  width: fit-content;
+}

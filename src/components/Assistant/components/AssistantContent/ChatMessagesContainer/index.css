@@ -1,0 +1,10 @@
+.chat-message-user-avatar {
+  border: 2px solid #1890FF;
+  background-color: #096DD9;
+}
+
+.chat-message-assistant-avatar {
+  display: flex;
+  border: 2px solid #d9d9d9;
+  background-color: #333333;
+}

@@ -1,0 +1,14 @@
+.robot-container {
+    svg {
+        width: 40vw;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .robot-container {
+        svg {
+            width: 30vw;
+            max-width: 450px;
+        }
+    }
+}
