@@ -9,7 +9,7 @@ This walkthrough will help you create an AI RAG Template Chat microservice via t
 
 ## Create the application
 
-In order to create the application, access the [Mia-Platform DevOps Console](https://console.cloud.mia-platform.eu/login), create a new Project (or use an existing one) and go to the **Design** area. From there, select _Applications_ in the main sidebar and click on the _Create new application_ button to access the [Mia-Platform Marketplace](https://docs.mia-platform.eu/docs/marketplace/overview_marketplace).
+In order to create the application, access the Mia-Platform Console, create a new Project (or use an existing one) and go to the **Design** area. From there, select _Applications_ in the main sidebar and click on the _Create new application_ button to access the [Mia-Platform Marketplace](https://docs.mia-platform.eu/docs/marketplace/overview_marketplace).
 
 In the Marketplace you will find a set of preconfigured applications that can be used to instantiate groups of microservices with a well-defined and tested goal. To learn more about applications, please refer to [the detailed documentation](https://docs.mia-platform.eu/docs/marketplace/applications/mia_applications).
 
@@ -36,7 +36,7 @@ It is important to know that the application you have just created is not saved 
 
 Once all the changes have been saved, you can deploy your Project through the DevOps Console. To do so, go to the **Deploy** area of the DevOps Console. Here, select the environment and the branch you have worked on and trigger the deployment by clicking on the *deploy* button. When the deployment process has ended you will be able to monitor your runtime status in the Runtime area and check that your application is working.
 
-To access the chat front-end, go to `https:<your-console-project-url>/` (the front-end is exposed on `/`). Please note that the AI RAG Template does not provide you with embeddings out-of-the-box. To properly configure the back-end and understand its purpose and capabilities, please refer to the [AI RAG Template documentation](https://github.com/mia-platform/ai-rag-template/blob/main/README.md).
+To access the chat front-end, go to `https:<your-project-url>/` (the front-end is exposed on `/`). Please note that the AI RAG Template does not provide you with embeddings out-of-the-box. To properly configure the back-end and understand its purpose and capabilities, please refer to the [AI RAG Template documentation](https://github.com/mia-platform/ai-rag-template/blob/main/README.md).
 
 [github-actions]: https://github.com/mia-platform-marketplace/React-App-Template/actions
 [github-actions-svg]: https://github.com/mia-platform-marketplace/React-App-Template/workflows/Node.js%20CI/badge.svg
