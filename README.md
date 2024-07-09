@@ -30,11 +30,11 @@ Note that the creation of the AI RAG Template and AI RAG Template Chat microserv
 
 ## Save your changes
 
-It is important to know that the application you have just created is not saved yet on the DevOps Console. It is not essential to save it right away, since you might need to make other modifications inside of your Project in the DevOps Console. If you decide to save your changes now, remember to choose a meaningful commit message (e.g "created application ai-rag-chat").
+It is important to know that the application you have just created is not saved yet on the Console. It is not essential to save it right away, since you might need to make other modifications inside of your Project in the Console. If you decide to save your changes now, remember to choose a meaningful commit message (e.g "created application ai-rag-chat").
 
 ## Deploy and try out the application
 
-Once all the changes have been saved, you can deploy your Project through the DevOps Console. To do so, go to the **Deploy** area of the DevOps Console. Here, select the environment and the branch you have worked on and trigger the deployment by clicking on the *deploy* button. When the deployment process has ended you will be able to monitor your runtime status in the Runtime area and check that your application is working.
+Once all the changes have been saved, you can deploy your Project through the Console. To do so, go to the **Deploy** area of the Console. Here, select the environment and the branch you have worked on and trigger the deployment by clicking on the *deploy* button. When the deployment process has ended you will be able to monitor your runtime status in the Runtime area and check that your application is working.
 
 To access the chat front-end, go to `https:<your-project-url>/` (the front-end is exposed on `/`). Please note that the AI RAG Template does not provide you with embeddings out-of-the-box. To properly configure the back-end and understand its purpose and capabilities, please refer to the [AI RAG Template documentation](https://github.com/mia-platform/ai-rag-template/blob/main/README.md).
 
