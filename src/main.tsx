@@ -28,9 +28,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         {(strings: any) => (
           <IntlProvider locale={language} messages={strings}>
             <BrowserRouter>
-              <Routes>
-                <Route element={<App />} path='/' />
-              </Routes>
+                <App />
             </BrowserRouter>
           </IntlProvider>
         )}
