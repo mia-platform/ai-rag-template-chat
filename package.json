@@ -20,7 +20,7 @@
   "dependencies": {
     "@ant-design/icons": "^5.3.7",
     "antd-5": "npm:antd@5.8.5",
-    "axios": "^1.7.2",
+    "axios": "^1.7.4",
     "jest-environment-jsdom": "^29.7.0",
     "lodash": "^4.17.21",
     "react": "^18.2.0",
