@@ -1,7 +1,7 @@
 {
   "name": "mia_template_service_name_placeholder",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "start": "vite",
